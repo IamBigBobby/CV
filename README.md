@@ -1,2 +1,1 @@
-# rsschool-cv
-My CV
+https://IamBigBobby.github.io/rsschool-cv/
