@@ -1,3 +1,68 @@
+/* general */
+*{
+    box-sizing: border-box;
+    border: 1px solid red;
+}
 html{
-    color: red;
+    scroll-behavior: smooth;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+section{
+    padding:30px;
+    display: block;
+}
+div{
+    display: block;
+}
+h1{
+    font-size: 55px;
+}
+h2{
+    position: relative;
+    margin: 0px;
+    padding-left: 60px;
+}
+/* navidation */
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+.nav-link{
+    padding: 0 20px;
+    line-height: 50px;
+}
+/* left-side */
+/* photo */
+.photo img{
+    display: block;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
+/* contacts */
+.contact_item{
+    list-style: none;
+    margin-left: -40px;
+}
+/* page-title */
+.page-title{
+    width: 500px;
+    height: 500px;
+    padding: 125px 80px 125px 60px;
 }
