@@ -35,6 +35,13 @@ h2{
     margin: 0px;
     padding-left: 60px;
 }
+.clear_fix{
+    clear:both;
+}
+.left-side{
+    color:white;
+    background-color: rgb(52, 61, 78);
+}
 /* navidation */
 .nav-list{
     display: flex;
