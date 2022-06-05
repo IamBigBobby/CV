@@ -1,6 +1,5 @@
 /* general */
 *{
-    box-sizing: border-box;
     border: 1px solid red;
 }
 html{
@@ -24,9 +23,6 @@ section{
     padding:30px;
     display: block;
 }
-div{
-    display: block;
-}
 h1{
     font-size: 55px;
 }
@@ -43,21 +39,38 @@ h2{
     background-color: rgb(52, 61, 78);
 }
 /* navidation */
+.nav{
+    background-color: gray;
+    min-width: 1440px;
+    margin: 0 auto;
+}
 .nav-list{
+    min-width: 100%;
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
+
 .nav-link{
-    padding: 0 20px;
+    /* padding: 0 20px; */
+    display: block;
     line-height: 50px;
+    margin: 0;
+    padding: 0;
+    transition: .3s;
+    text-decoration: none;
+    color: white;
+}
+.nav-link:hover{
+    color:rgb(177, 177, 28);
 }
 /* left-side */
 /* photo */
 .photo img{
     display: block;
-    padding: 20px;
+    padding: 40px;
     width: 400px;
     height: 400px;
     border-radius: 50%;
@@ -70,6 +83,6 @@ h2{
 /* page-title */
 .page-title{
     width: 500px;
-    height: 500px;
+    height: 300px;
     padding: 125px 80px 125px 60px;
 }
