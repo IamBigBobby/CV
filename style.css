@@ -1,7 +1,7 @@
 /* general */
-*{
+/* *{
     border: 1px solid red;
-}
+} */
 html{
     scroll-behavior: smooth;
 }
@@ -80,9 +80,64 @@ h2{
     list-style: none;
     margin-left: -40px;
 }
+.mail-link{
+    color:white;
+    text-decoration: none;
+}
+.mail-link:hover{
+    text-decoration: underline;
+}
 /* page-title */
 .page-title{
     width: 500px;
     height: 300px;
     padding: 125px 80px 125px 60px;
+}
+/* footer */
+/* .footer .container{
+    background-color: rgb(177, 177, 28);
+} */
+/* github */
+.footer{
+    min-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(177, 177, 28);
+    color: white;
+}
+.github-footer{
+    position: relative;
+    padding-left: 40px;
+}
+.github-footer::before{
+    content: "";
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background-image: url(assets/img/iconmonstr-github-1.svg);
+    left: 0;
+    top: 10px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.github-link-footer{
+    display: block;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+    transition: .3s;
+    text-decoration: none;
+    color: white;
+}
+.github-link-footer:hover{
+    text-decoration: underline;
+}
+.footer-RS{
+    position: relative;
+}
+.footer-RS a{
+    position: absolute;
+    margin: 0;
+    top: 25%;
 }
