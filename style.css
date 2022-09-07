@@ -16,6 +16,7 @@ body{
 .container{
     display: flex;
     flex-wrap: nowrap;
+    justify-content: center;
     max-width: 1440px;
     margin: 0 auto;
 }
@@ -75,6 +76,11 @@ h2{
     height: 400px;
     border-radius: 50%;
 }
+/* img-courses */
+.img-courses{
+    width: 500px;
+    height: 350px;
+}
 /* contacts */
 .contact_item{
     list-style: none;
@@ -93,13 +99,39 @@ h2{
     height: 300px;
     padding: 125px 80px 125px 60px;
 }
+/* right-side */
+.name-of-task-code{
+    text-decoration: underline;
+}
+.projects-container{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 1000px;
+}
+.project{
+    width: 450px;
+    height: 250px;
+    cursor: pointer;
+    transition: .3s;
+    margin: 5px;
+}
+.project img{
+    width: 450px;
+    height: 250px;
+}
+.project:hover{
+    outline: 8px solid rgb(177, 177, 28);
+    outline-offset: -8px;
+    box-sizing: border-box;
+}
 /* footer */
 /* .footer .container{
     background-color: rgb(177, 177, 28);
 } */
 /* github */
 .footer{
-    min-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-around;
