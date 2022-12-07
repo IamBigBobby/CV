@@ -1,14 +1,11 @@
 /* general */
-/* *{
+*{
     border: 1px solid red;
-} */
+}
 html{
     scroll-behavior: smooth;
 }
 body{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
@@ -17,12 +14,11 @@ body{
     display: flex;
     flex-wrap: nowrap;
     justify-content: center;
-    max-width: 1440px;
+    /* width: 1440px; */
     margin: 0 auto;
 }
 section{
     padding:30px;
-    display: block;
 }
 h1{
     font-size: 55px;
@@ -32,9 +28,6 @@ h2{
     margin: 0px;
     padding-left: 60px;
 }
-.clear_fix{
-    clear:both;
-}
 .left-side{
     color:white;
     background-color: rgb(52, 61, 78);
@@ -42,11 +35,10 @@ h2{
 /* navidation */
 .nav{
     background-color: gray;
-    min-width: 1440px;
+    width: 100%;
     margin: 0 auto;
 }
 .nav-list{
-    min-width: 100%;
     display: flex;
     justify-content: space-around;
     margin: 0;
@@ -95,7 +87,6 @@ h2{
 }
 /* page-title */
 .page-title{
-    width: 500px;
     height: 300px;
     padding: 125px 80px 125px 60px;
 }
@@ -107,7 +98,6 @@ h2{
     margin: 10px;
     display: flex;
     flex-wrap: wrap;
-    min-width: 1000px;
 }
 .project{
     width: 450px;
